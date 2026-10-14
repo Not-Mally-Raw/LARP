@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large Heavy Binary Data (> 25 MB)
+# Note: Keep summary contracts, small CSVs, and model parameters
+contracts/*lightcurves*
+results/*/*.parquet
+results/*lightcurves*
+data/
+cache/
+*.h5
+*.fits
+
+# Test & Coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/

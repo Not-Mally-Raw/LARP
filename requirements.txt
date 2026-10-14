@@ -1,0 +1,11 @@
+# Core LARP Scientific Dependencies
+numpy>=1.23.0
+scipy>=1.9.0
+pandas>=1.5.0
+pyarrow>=10.0.0
+matplotlib>=3.6.0
+
+# Optional Development & Quality Assurance
+pytest>=7.0.0
+pytest-cov>=4.0.0
+ruff>=0.1.0

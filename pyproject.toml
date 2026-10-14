@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "larp-ariel"
+version = "1.0.0"
+description = "LARP: Latent Astrophysical Residual Pipeline for Exoplanetary Transmission Spectroscopy (ESA Ariel Mission / NeurIPS 2025)"
+readme = "README.md"
+authors = [
+    { name = "Aditya Deshmukh", email = "additya.22311670@viit.ac.in" },
+    { name = "Spandan Kewte", email = "spandan.22311588@viit.ac.in" },
+    { name = "Harshita Kukreja", email = "harshita.22310999@viit.ac.in" },
+    { name = "Omkar Deshpande", email = "omkar.22311757@viit.ac.in" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
+dependencies = [
+    "numpy>=1.23.0",
+    "scipy>=1.9.0",
+    "pandas>=1.5.0",
+    "pyarrow>=10.0.0",
+    "matplotlib>=3.6.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+    "black>=23.0.0"
+]
+notebooks = [
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0"
+]
+
+[project.scripts]
+larp = "larp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
