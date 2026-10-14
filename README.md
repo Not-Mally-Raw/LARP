@@ -167,18 +167,6 @@ make figures
 │   └── scripts/
 │       └── generate_larp_paper_figures.py # Master figure generation script
 │
-├── notebooks/                          # 10 Executable Jupyter Notebooks (Stages 1 to 10)
-│   ├── stage01_data_governance.ipynb
-│   ├── stage02_detector_calibration_cds.ipynb
-│   ├── stage03_curved_horne_extraction.ipynb
-│   ├── stage04_decoupled_transit_geometry.ipynb
-│   ├── stage05_latent_continuum_conditioning.ipynb
-│   ├── stage06_fwl_qr_marginalization.ipynb
-│   ├── stage07_svd_woodbury_empirical_bayes.ipynb
-│   ├── stage08_split_conformal_calibration.ipynb
-│   ├── stage09_moment_matched_ensemble.ipynb
-│   └── stage10_production_submission.ipynb
-│
 ├── src/                                # Modular Python library (`larp`)
 │   └── larp/
 │       ├── __init__.py

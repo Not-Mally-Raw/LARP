@@ -16,7 +16,9 @@ venv/
 env/
 ENV/
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebooks & checkpoints (Private / Local only)
+notebooks/
+*.ipynb
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
