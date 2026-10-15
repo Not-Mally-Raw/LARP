@@ -1,0 +1,47 @@
+{
+  "benchmark_target": "1010375142",
+  "time_samples_T": 5625,
+  "nuisance_vectors_P": 15,
+  "spectral_channels_C": 282,
+  "matrix_shapes": {
+    "flux_data_matrix_F": [
+      5625,
+      282
+    ],
+    "transit_template_matrix_K": [
+      5625,
+      282
+    ],
+    "nuisance_design_matrix_X_nuis": [
+      5625,
+      15
+    ],
+    "thin_Q_matrix": [
+      5625,
+      15
+    ],
+    "upper_triangular_R_matrix": [
+      15,
+      15
+    ],
+    "projected_flux_F_tilde": [
+      5625,
+      282
+    ],
+    "projected_template_K_tilde": [
+      5625,
+      282
+    ],
+    "resulting_depth_vector_delta": [
+      282
+    ]
+  },
+  "orthogonality_metrics": {
+    "Q_orthonormality_residual_max_abs": 3.3306690738754696e-15,
+    "DOOT_common_mode_K_wl_inner_product": 4.440892098500626e-16,
+    "DOOT_common_mode_K_wl_correlation": -4.090122696004372e-18,
+    "orthogonality_guarantee_passed": true
+  },
+  "channel_wise_equation": "delta_j = (K_tilde_j.T @ F_tilde_j) / (K_tilde_j.T @ K_tilde_j)",
+  "vectorized_solve_verified": true
+}

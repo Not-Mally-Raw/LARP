@@ -1,0 +1,24 @@
+{
+  "spectral_dimension_C": 283,
+  "latent_subspace_K": 8,
+  "dense_covariance_size": [
+    283,
+    283
+  ],
+  "woodbury_core_size": [
+    8,
+    8
+  ],
+  "numerical_errors": {
+    "L_infinity_norm_max_abs": 5.958913362746898e-10,
+    "L_2_norm_euclidean": 2.8589038226899556e-09,
+    "relative_L_2_norm": 4.259363738662979e-11,
+    "numerical_equivalence_satisfied": true
+  },
+  "computational_benchmarks": {
+    "dense_solve_time_ms": 4.937,
+    "woodbury_solve_time_ms": 0.522,
+    "speedup_factor": 9.4,
+    "theoretical_flop_reduction": 44267.9
+  }
+}

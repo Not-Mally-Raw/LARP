@@ -49,3 +49,5 @@ cache/
 .coverage
 htmlcov/
 .pytest_cache/
+*.zip
+notebooks.zip

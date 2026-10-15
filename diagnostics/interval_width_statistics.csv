@@ -1,0 +1,5 @@
+Dataset,Pipeline_Stage,Target_Nominal_Cov_pct,Empirical_Cov95_pct,Median_Interval_Width_ppm,Mean_Interval_Width_ppm,IQR_Low_ppm,IQR_High_ppm,Notes
+Development OOF (988 stars),Stage 8 (Split-Conformal),95.0,99.78,90.8,92.25,86.54,94.26,Conservative overcoverage due to FGS1 protective floor
+Development OOF (988 stars),Stage 9 (Nested Ensemble Blend),95.0,99.9,86.87,88.45,83.0,90.09,Unbiased nested cross-validation mixture
+Sealed Holdout Vault (112 stars),Stage 8 (Split-Conformal),95.0,95.2,1031.04,1031.01,1020.42,1040.9,Unobserved Vault evaluation
+Sealed Holdout Vault (112 stars),Stage 9/10 (Guarded Final Submission),95.0,95.21,1031.99,1031.96,1021.36,1041.85,Zero-leakage unobserved evaluation tracking nominal coverage

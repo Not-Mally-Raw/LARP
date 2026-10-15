@@ -1,0 +1,5 @@
+Diagnostic_Feature,Dev_OOF_Mean,Dev_OOF_Std,Vault_Mean,Vault_Std,KS_Statistic,KS_p_value,Domain_Shift_Detected
+In-Band Spectral SNR (Mean / Sigma),456.7,26.19,39.26,0.46,1.0,0.0,True
+High-Frequency Fourier Power Ratio,0.0,0.0,0.0,0.0,0.13,0.0605,False
+Transit Depth Distribution (ppm),10074.4,4773.9,10363.6,4458.8,0.117,0.1167,False
+Channel 0 (FGS1) Evaluation Weight,17.02,0.0,17.02,0.0,0.0,1.0,False
