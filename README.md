@@ -235,9 +235,8 @@ If you find this work, pipeline architecture, or codebase useful in your researc
 
 ## 👥 Authors & Contact
 
-* **Aditya Deshmukh** — `additya.22311670@viit.ac.in`  
-* **Spandan Kewte** — `spandan.22311588@viit.ac.in`  
-* **Harshita Kukreja** — `harshita.22310999@viit.ac.in`  
-* **Omkar Deshpande** — `omkar.22311757@viit.ac.in`  
+* **Spandan Kewte**
+* **Aditya Deshmukh**
 
-*Department of Computer Engineering, Vishwakarma Institute of Information Technology (VIIT), Pune, India.*
+
+*Department of Computer Engineering, VIIT, Pune, India.*
